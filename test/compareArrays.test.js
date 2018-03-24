@@ -15,5 +15,11 @@ describe('Compare arrays', () => {
 
     const d = compareArrays([null, null, 2], [null, null, 2]);
     expect(d).to.equal(true);
+
+    const e = compareArrays(['a', ['ab', ['cd']]], ['a', ['ab', ['ef']]]);
+    expect(e).to.equal(false);
+
+    const f = compareArrays(['hello', 'world'], ['hi']);
+    expect(f).to.equal(false);
   });
 });
