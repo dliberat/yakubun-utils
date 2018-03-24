@@ -1,8 +1,9 @@
-const expect = require('chai').expect;
-const compareArrays = require('../utils/compareArrays.js');
+/* global describe, it */
+const { expect } = require('chai');
+const compareArrays = require('../utils/compareArrays');
 
-describe('Test', function(){
-  it('Verify whether two arrays are identical', function(){
+describe('Compare arrays', () => {
+  it('Verify whether two arrays are identical', () => {
     const a = compareArrays([1, 2, 3], [1, 2, 3]);
     expect(a).to.equal(true);
 
