@@ -1,4 +1,6 @@
 # Yakubun-utils
+[!Build Status](https://travis-ci.org/garroadran/yakubun-utils.svg?branch=master)](https://travis-ci.org/garroadran/yakubun-utils)
+[![Coverage Status](https://coveralls.io/repos/github/garroadran/yakubun-utils/badge.svg?branch=master)](https://coveralls.io/github/garroadran/yakubun-utils?branch=master)
 
 ## Overview
 
